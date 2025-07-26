@@ -5,23 +5,27 @@ import { StyleSheet } from "react-native"
 
 export const styles = StyleSheet.create({
   container: {
-    marginTop: padding.small,
-    gap: 8
+    paddingTop: padding.medium,
+    paddingBottom: padding.medium,
+    flexDirection: "row",
+    gap: 8,
   },
 
-  headerline: {
+  section: {
+    flex: 1,
+  },
+
+  title: {
     fontFamily: "Rubik_500Medium",
-    fontSize: text.xLarge,
-    fontWeight: 500,
+    fontSize: text.base,
+    fontWeight: "500",
     color: colors.stone[100],
   },
 
-  description: {
-    fontSize: text.small,
-    fontFamily: "Rubik_400Regular",
-    fontWeight: 400,
+  subtitle: {
+    fontFamily: "Rubik_500Medium",
+    fontSize: 12,
+    fontWeight: "500",
     color: colors.stone[400],
-    lineHeight: 20
   }
-  
 })
