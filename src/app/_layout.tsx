@@ -12,6 +12,7 @@ import {
   Rubik_900Black
 } from "@expo-google-fonts/rubik"
 import Loading from "@/components/loading"
+import { StatusBar } from "react-native"
 
 export default function Layout() {
   const [fontsLoaded] = useFonts({
@@ -29,12 +30,15 @@ export default function Layout() {
   }
 
   return (
-    <Stack
-      screenOptions={{
-        headerShown: false, contentStyle: {
-          backgroundColor: colors.stone[950]
-        }
-      }}
-    />
+    <> 
+      <Stack
+        screenOptions={{
+          headerShown: false, contentStyle: {
+            backgroundColor: colors.stone[950]
+          }
+        }}
+      />
+      <StatusBar hidden backgroundColor={ colors.stone[950] } />
+    </>
   )
 }

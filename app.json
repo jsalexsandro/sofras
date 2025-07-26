@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "sofras",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "automatix",
     "newArchEnabled": true,
     "splash": {
     },
@@ -16,7 +16,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#0c0a09"
       },
       "edgeToEdgeEnabled": true
     },
